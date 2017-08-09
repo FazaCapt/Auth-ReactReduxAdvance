@@ -19,10 +19,12 @@ const localLogin = new LocalStrategy(localOption, function(email, password, done
         user.comparePassword(password, function(err, isMatch) {
             if(err) { return done(err); }
             if(!isMatch) { return done(null, false); }
+
+            return done(null, user);
+
         });
     });
 });
-
 
 // Setup options for JWT Strategy
 const jwtOptions = {
