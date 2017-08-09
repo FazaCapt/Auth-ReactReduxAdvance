@@ -7,3 +7,4 @@
     - sudo mkdir -p /data/db
     - sudo chown -R $USER /data/db
     - mongod
+4. npm install --save bcrypt-nodejs
