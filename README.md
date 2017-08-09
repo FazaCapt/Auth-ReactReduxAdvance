@@ -10,3 +10,4 @@
 4. npm install --save bcrypt-nodejs
 5. npm install --save jwt-simple
 6. npm install --save passport passport-jwt
+7. npm install --save passport-local
