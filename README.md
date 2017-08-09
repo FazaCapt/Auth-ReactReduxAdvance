@@ -8,3 +8,4 @@
     - sudo chown -R $USER /data/db
     - mongod
 4. npm install --save bcrypt-nodejs
+5. npm install --save jwt-simple
